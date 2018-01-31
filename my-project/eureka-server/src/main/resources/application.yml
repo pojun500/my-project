@@ -1,0 +1,14 @@
+server:
+  port: 1111
+spring:
+  freemarker:
+    #解决页面显示为xml的问题
+    prefer-file-system-access: false
+eureka:
+  client:
+    #不向注册中心注册自己
+    registerWithEureka: false 
+    #不检索服务
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
