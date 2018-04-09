@@ -1,5 +1,5 @@
 server:
-  port: 1111
+  port: 8765
 spring:
   freemarker:
     #解决页面显示为xml的问题
