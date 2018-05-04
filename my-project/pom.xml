@@ -57,7 +57,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+ 
 	<modules>
 		<module>eureka-server</module>
 		<module>hello</module>
